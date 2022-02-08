@@ -1,0 +1,108 @@
+************* Module exercice1
+exercice1.py:14:0: C0304: Final newline missing (missing-final-newline)
+exercice1.py:2:5: W0511: TODO Compléter la fonction afin de combiner dic_1 et dic_2 (fixme)
+exercice1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+exercice1.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+exercice1.py:1:16: W0621: Redefining name 'dic_1' from outer scope (line 10) (redefined-outer-name)
+exercice1.py:1:23: W0621: Redefining name 'dic_2' from outer scope (line 11) (redefined-outer-name)
+exercice1.py:4:4: W0621: Redefining name 'dic_3' from outer scope (line 13) (redefined-outer-name)
+exercice1.py:1:16: W0613: Unused argument 'dic_1' (unused-argument)
+exercice1.py:1:23: W0613: Unused argument 'dic_2' (unused-argument)
+exercice1.py:13:4: C0103: Constant name "dic_3" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+8 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |10     |62.50 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |3      |18.75 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |3      |18.75 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |4      |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|redefined-outer-name       |3           |
++---------------------------+------------+
+|unused-argument            |2           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|missing-function-docstring |1           |
++---------------------------+------------+
+|missing-final-newline      |1           |
++---------------------------+------------+
+|invalid-name               |1           |
++---------------------------+------------+
+|fixme                      |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------
+Your code has been rated at -2.50/10
+
