@@ -1,0 +1,155 @@
+************* Module test_assignment
+test_assignment.py:55:0: C0301: Line too long (101/100) (line-too-long)
+test_assignment.py:94:0: C0301: Line too long (159/100) (line-too-long)
+test_assignment.py:113:0: C0301: Line too long (123/100) (line-too-long)
+test_assignment.py:115:0: C0301: Line too long (341/100) (line-too-long)
+test_assignment.py:177:0: C0301: Line too long (174/100) (line-too-long)
+test_assignment.py:186:0: C0301: Line too long (167/100) (line-too-long)
+test_assignment.py:189:0: C0301: Line too long (174/100) (line-too-long)
+test_assignment.py:228:0: C0301: Line too long (167/100) (line-too-long)
+test_assignment.py:231:0: C0301: Line too long (174/100) (line-too-long)
+test_assignment.py:240:0: C0301: Line too long (167/100) (line-too-long)
+test_assignment.py:243:0: C0301: Line too long (174/100) (line-too-long)
+test_assignment.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+test_assignment.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:33:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:43:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:52:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:62:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:67:12: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:78:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:80:12: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:92:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:95:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:107:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:120:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:127:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:134:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:141:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:148:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:155:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:162:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:172:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:184:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:196:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:206:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:216:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:226:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:238:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:254:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+test_assignment.py:6:0: C0411: standard import "import unittest" should be placed before "import exercice1 as ex1" (wrong-import-order)
+test_assignment.py:7:0: C0411: standard import "import os" should be placed before "import exercice1 as ex1" (wrong-import-order)
+test_assignment.py:8:0: C0411: standard import "import sys" should be placed before "import exercice1 as ex1" (wrong-import-order)
+
+
+Report
+======
+204 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |4      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |23     |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |23     |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    exercice1 (test_assignment)
+    exercice2 (test_assignment)
+    exercice3 (test_assignment)
+    exercice4 (test_assignment)
+    test_utils (test_assignment)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |206    |79.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |53     |20.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |44     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|missing-function-docstring |23          |
++---------------------------+------------+
+|line-too-long              |11          |
++---------------------------+------------+
+|missing-class-docstring    |4           |
++---------------------------+------------+
+|wrong-import-order         |3           |
++---------------------------+------------+
+|invalid-name               |2           |
++---------------------------+------------+
+|unspecified-encoding       |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 7.79/10
+

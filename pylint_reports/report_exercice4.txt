@@ -1,0 +1,153 @@
+************* Module exercice4
+exercice4.py:31:0: C0301: Line too long (133/100) (line-too-long)
+exercice4.py:34:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+exercice4.py:17:16: W0511: TODO Générer un labyrinthe vide -> rempli de "_" (fixme)
+exercice4.py:19:5: W0511: TODO Placer le joueur "O" la sortie "X" les murs "W" (fixme)
+exercice4.py:26:5: W0511: TODO Vérifier si la position est valide -> dans le labyrinthe et pas sur un mur (fixme)
+exercice4.py:31:20: W0511: TODO Créer le dictionnaire d'équivalence entre la touche appuyée et la direction ("up", "left", "down", "right") (fixme)
+exercice4.py:33:5: W0511: TODO Vérifier si la touche appuyée est dans le dictionnaire (fixme)
+exercice4.py:35:20: W0511: TODO Récupérer la direction du mouvement (fixme)
+exercice4.py:37:9: W0511: TODO Générer la position potentielle du joueur en fonction de la direction (fixme)
+exercice4.py:41:13: W0511: TODO Changer réellement la position du joueur (fixme)
+exercice4.py:50:23: W0511: TODO Définir la position ligne, colonne sur en haut à gauche (fixme)
+exercice4.py:51:20: W0511: TODO Définir la position ligne, colonne sur en bas à droite (fixme)
+exercice4.py:58:5: W0511: TODO Décommenter pour tester votre code en Partie 2 (fixme)
+exercice4.py:64:5: W0511: TODO Décommenter pour tester votre code en Partie 3 (fixme)
+exercice4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+exercice4.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+exercice4.py:11:14: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+exercice4.py:8:8: W0612: Unused variable 'i' (unused-variable)
+exercice4.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+exercice4.py:16:14: W0621: Redefining name 'nb_row' from outer scope (line 48) (redefined-outer-name)
+exercice4.py:16:22: W0621: Redefining name 'nb_col' from outer scope (line 49) (redefined-outer-name)
+exercice4.py:16:30: W0621: Redefining name 'player_pos' from outer scope (line 50) (redefined-outer-name)
+exercice4.py:16:42: W0621: Redefining name 'end_pos' from outer scope (line 51) (redefined-outer-name)
+exercice4.py:16:51: W0621: Redefining name 'walls' from outer scope (line 53) (redefined-outer-name)
+exercice4.py:17:4: W0621: Redefining name 'maze' from outer scope (line 54) (redefined-outer-name)
+exercice4.py:16:14: W0613: Unused argument 'nb_row' (unused-argument)
+exercice4.py:16:22: W0613: Unused argument 'nb_col' (unused-argument)
+exercice4.py:16:30: W0613: Unused argument 'player_pos' (unused-argument)
+exercice4.py:16:42: W0613: Unused argument 'end_pos' (unused-argument)
+exercice4.py:16:51: W0613: Unused argument 'walls' (unused-argument)
+exercice4.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+exercice4.py:24:18: W0621: Redefining name 'maze' from outer scope (line 54) (redefined-outer-name)
+exercice4.py:24:18: W0613: Unused argument 'maze' (unused-argument)
+exercice4.py:24:24: W0613: Unused argument 'new_player_pos' (unused-argument)
+exercice4.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+exercice4.py:30:22: W0621: Redefining name 'maze' from outer scope (line 54) (redefined-outer-name)
+exercice4.py:30:28: W0621: Redefining name 'player_pos' from outer scope (line 50) (redefined-outer-name)
+exercice4.py:35:8: W0621: Redefining name 'move' from outer scope (line 30) (redefined-outer-name)
+exercice4.py:34:4: W0125: Using a conditional statement with a constant value (using-constant-test)
+exercice4.py:30:9: W0613: Unused argument 'key_pressed' (unused-argument)
+exercice4.py:31:4: W0612: Unused variable 'move_dic' (unused-variable)
+exercice4.py:35:8: W0612: Unused variable 'move' (unused-variable)
+exercice4.py:48:4: C0103: Constant name "nb_row" doesn't conform to UPPER_CASE naming style (invalid-name)
+exercice4.py:49:4: C0103: Constant name "nb_col" doesn't conform to UPPER_CASE naming style (invalid-name)
+exercice4.py:50:4: C0103: Constant name "player_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+exercice4.py:51:4: C0103: Constant name "end_pos" doesn't conform to UPPER_CASE naming style (invalid-name)
+exercice4.py:54:4: C0103: Constant name "maze" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+29 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |31     |43.06 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |24     |33.33 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |17     |23.61 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |13     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |34     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|fixme                      |12          |
++---------------------------+------------+
+|redefined-outer-name       |10          |
++---------------------------+------------+
+|unused-argument            |8           |
++---------------------------+------------+
+|invalid-name               |5           |
++---------------------------+------------+
+|missing-function-docstring |4           |
++---------------------------+------------+
+|unused-variable            |3           |
++---------------------------+------------+
+|using-constant-test        |1           |
++---------------------------+------------+
+|superfluous-parens         |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+|consider-using-f-string    |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------
+Your code has been rated at -6.21/10
+

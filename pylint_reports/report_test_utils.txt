@@ -1,0 +1,106 @@
+************* Module test_utils
+test_utils.py:45:0: C0301: Line too long (102/100) (line-too-long)
+test_utils.py:50:0: C0301: Line too long (116/100) (line-too-long)
+test_utils.py:13:0: C0103: Function name "exitFunction" doesn't conform to snake_case naming style (invalid-name)
+test_utils.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_utils.py:17:12: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+test_utils.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+test_utils.py:18:14: C0103: Argument name "fn" doesn't conform to snake_case naming style (invalid-name)
+test_utils.py:34:0: C0115: Missing class docstring (missing-class-docstring)
+test_utils.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_utils.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_utils.py:48:8: W0702: No exception type(s) specified (bare-except)
+test_utils.py:46:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+
+
+Report
+======
+28 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |2      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |4      |NC         |NC         |50.00       |25.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |32     |61.54 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |7      |13.46 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |2      |3.85  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |11     |21.15 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |11     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|missing-function-docstring |4           |
++---------------------------+------------+
+|invalid-name               |4           |
++---------------------------+------------+
+|line-too-long              |2           |
++---------------------------+------------+
+|missing-class-docstring    |1           |
++---------------------------+------------+
+|bare-except                |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 5.71/10
+
